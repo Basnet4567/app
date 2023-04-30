@@ -1,0 +1,9 @@
+Jim -saleshman
+open("read.txt", "r") #read
+open("read.txt", "w")  #write and delete other existing things mainly used create new files
+open("read.txt", "a")  #add
+open("read.txt", "r+")   #read and write
+
+read_file =open("read.txt", "r")
+print(read_file.readble) #print all
+read_file.close()

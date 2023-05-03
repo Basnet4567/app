@@ -9,6 +9,6 @@ print(file.readable()) #readable or not (true or false)
 #print(file.readlines())
 
 #write 
-file_write = open("file_write.txt","a")
+file_write = open("file_write.txt","a") #add 
 file_write.write("\nwrite file for the second time") 
 file.close()

@@ -1,5 +1,5 @@
 Jim -saleshman
-open("read.txt", "r") #read
+open("read.txt", "r") # file name r for read
 open("read.txt", "w")  #write and delete other existing things mainly used create new files
 open("read.txt", "a")  #add
 open("read.txt", "r+")   #read and write
